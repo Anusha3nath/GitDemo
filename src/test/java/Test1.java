@@ -8,10 +8,10 @@ public class Test1 {
 
 		String s="Welcome";
 		String s1="to java";
-		
+		String s2="gitpratice";
 		System.out.println(s.length()); //length of a string
 		System.out.println(s.concat(s1));//joining of string
-		
+		System.out.println(s+s1+s2);
 		//s="   Welcome  ";
 		System.out.println(s.trim());
 		System.out.println(s.charAt(4));
